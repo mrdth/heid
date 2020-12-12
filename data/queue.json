@@ -1,0 +1,34 @@
+[
+    {
+    "id": "fsjfgjlgjdfgjkfjkdgjkhdf",
+    "artist": "Led Zeppelin",
+    "title": "Immigrant Song",
+    "album": "Led Zeppelin III",
+    "cover": "led-zeppelin-iii.jpg",
+    "duration": "2:25"
+},
+{
+    "id": "hetheththgdhfjryjnfhjn",
+    "artist": "Alestorm",
+    "title": "Captain Morgan's Revenge",
+    "album": "Black Sails at Midnight",
+    "cover": "black-sails-at-midnight.jpg",
+    "duration": "11:11"
+},
+{
+    "id": "jfgsjlgfjkjgkfdgjsfj",
+    "artist": "Alestorm",
+    "title": "Wolves of the Sea",
+    "album": "Black Sails at Midnight",
+    "cover": "black-sails-at-midnight.jpg",
+    "duration": "3:33"
+},
+{
+    "id": "jnryjnrsyrtyhrtyhtsdthr",
+    "artist": "Alestorm",
+    "title": "Black Sails at Midnight",
+    "album": "Black Sails at Midnight",
+    "cover": "black-sails-at-midnight.jpg",
+    "duration": "3:31"
+}
+]
