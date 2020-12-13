@@ -1,9 +1,11 @@
 <template>
   <div class="flex flex-col mb-4 mr-4 text-center bg-gray-700 rounded-xl">
-    <img
-      :src="coverPath"
-      class="w-64 h-64 rounded-t-xl"
-    >
+    <router-link :to="albumPath">
+      <img
+        :src="coverPath"
+        class="w-64 h-64 rounded-t-xl"
+      >
+    </router-link>
     <div class="flex flex-col py-1">
       <span class="w-64">{{ title }}</span>
       <span class="flex-grow-0">{{ artist }}</span>
@@ -27,11 +29,16 @@ export default {
     artist: {
       type: String,
       required: true
+    },
+    mbid: {
+      type: String,
+      required: true
     }
   },
   setup (props) {
     const coverPath = computed(() => `/img/${props.cover}`);
-    return { coverPath };
+    const albumPath = computed(() => `/albums/${props.mbid}`);
+    return { coverPath, albumPath };
   }
 };
 </script>

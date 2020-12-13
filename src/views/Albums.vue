@@ -9,6 +9,7 @@
       :cover="album.cover"
       :title="album.title"
       :artist="album.albumartist"
+      :mbid="album.mbid"
     />
   </div>
 </template>

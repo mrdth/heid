@@ -48,7 +48,7 @@
 import queueItems from '../../data/queue.json';
 import { computed, ref } from 'vue';
 import QueueItem from '@/components/QueueItem.vue';
-console.log(queueItems);
+
 export default {
   name: 'Queue',
   components: { QueueItem },
