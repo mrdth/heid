@@ -1,5 +1,5 @@
 <template>
-  <figure class="md:flex md:p-2">
+  <figure class="md:flex md:p-2 hover:bg-indigo-800">
     <img
       class="w-12 h-12 rounded-full"
       :src="coverPath"

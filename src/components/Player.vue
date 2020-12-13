@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full pin-b">
+  <div class="w-full bg-gray-800 pin-b">
     <div class="flex w-full text-xs bg-gray-500">
       <div class="w-1/3 pl-2 text-left bg-indigo-400">
         0:48

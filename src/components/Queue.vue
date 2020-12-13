@@ -1,7 +1,7 @@
 <template>
   <div
     id="queue"
-    class="w-12 py-2 border-l-2 border-gray-900"
+    class="w-12 py-2 transition-all duration-300 ease-in-out border-l-2 border-gray-900"
     :class="[isOpen && 'w-1/6']"
   >
     <div class="pt-2 pb-4 pl-2 border-b border-indigo-800">
@@ -37,6 +37,7 @@
         :album="item.album"
         :cover="item.cover"
         :duration="item.duration"
+        class="overflow-x-hidden"
         :class="[idx ==0 && 'bg-green-600']"
       />
     </div>

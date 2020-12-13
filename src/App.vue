@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-row h-full">
-    <div class="flex-grow">
+  <div class="flex flex-row flex-1 ">
+    <div class="flex-grow w-full">
       <main-nav />
-      <router-view class="flex-1 p-8 mx-auto" />
+      <router-view class="p-8 mx-auto overflow-y-auto" />
     </div>
     <queue />
   </div>
-  <player />
+  <player class="fixed bottom-0" />
 </template>
 
 <script>
