@@ -1,5 +1,5 @@
 <template>
-  <div
+  <aside
     id="queue"
     class="w-12 py-2 transition-all duration-300 ease-in-out border-l-2 border-gray-900"
     :class="[isOpen && 'w-1/6']"
@@ -41,7 +41,7 @@
         :class="[idx ==0 && 'bg-green-600']"
       />
     </div>
-  </div>
+  </aside>
 </template>
 
 <script>

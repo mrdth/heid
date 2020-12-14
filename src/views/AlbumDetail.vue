@@ -71,7 +71,7 @@
             </button>
             <div
               v-if="playDropdownOpen"
-              class="absolute right-0 z-20 overflow-hidden bg-green-700 rounded-md shadow-xl left- w-36"
+              class="absolute right-0 z-20 overflow-hidden bg-green-700 rounded-md shadow-xl top-11 w-36"
             >
               <span
                 class="block px-4 py-2 text-sm text-gray-200 border-b border-green-900 hover:bg-green-600"
@@ -121,7 +121,7 @@
             </button>
             <div
               v-if="playlistDropdownOpen"
-              class="absolute right-0 z-20 overflow-hidden bg-green-700 rounded-md shadow-xl left- w-36"
+              class="absolute right-0 z-20 overflow-hidden bg-green-700 rounded-md shadow-xl top-11 w-36"
             >
               <span
                 class="block px-4 py-2 text-sm text-gray-200 border-b border-green-900 hover:bg-green-600"
@@ -142,14 +142,13 @@
             Song
           </th>
           <th>Duration</th>
-          <th>&nbsp;</th>
         </tr>
       </thead>
       <tbody>
         <tr
           v-for="(track, idx) in info.tracks.track"
           :key="track.name"
-          class="h-12 border-b border-gray-700"
+          class="h-12 border-b border-gray-700 hover:bg-gray-900"
         >
           <td class="text-center">
             {{ idx + 1 }}

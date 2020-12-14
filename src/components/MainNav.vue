@@ -1,5 +1,5 @@
 <template>
-  <div
+  <nav
     id="nav"
     class="flex flex-row justify-center pt-4 border-b border-indigo-400"
   >
@@ -11,7 +11,7 @@
       destination="/playlists"
       text="playlists"
     />
-  </div>
+  </nav>
 </template>
 
 <script>
